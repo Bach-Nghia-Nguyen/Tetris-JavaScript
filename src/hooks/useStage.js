@@ -49,5 +49,5 @@ export const useStage = (player, resetPlayer) => {
     setStage((previous) => updateStage(previous));
   }, [player, resetPlayer]);
 
-  return [stage, setStage];
+  return [stage, setStage, rowsCleared];
 };
